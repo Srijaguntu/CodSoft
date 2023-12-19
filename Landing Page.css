@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.brand-heading {
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nav-bg {
+    background-image: linear-gradient(to left, rgb(24, 24, 73), #1b3d63);
+    border-bottom: solid 1px white;
+}
+
+.items-container {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+}
+
+.register-btn {
+    background-color: rgb(190, 110, 189);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.signIn-btn {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.items-container a {
+    color: beige;
+}
+
+.signIn-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn-form label {
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.font-top-content {
+    display: flex;
+}
+
+.signIn-form .font-top-content p {
+    font-size: 14px;
+    color: grey;
+}
+
+.signIn-form input {
+    border: solid 1px #1b3d63;
+    margin: 10px 0px;
+}
+
+.signIn-form h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.signIn-form .font-top-content a {
+    color: #019ee2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-section {
+    background-color: #1b3d63;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image-and-intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 22px;
+}
+
+.student-image {
+    height: 380px;
+    position: relative;
+    width: 100%;
+    top: 30px;
+    right: 16px;
+    border-radius: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.top-section-heading {
+    padding-top: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+}
+
+.desciption {
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    padding: 12px;
+    text-align: center;
+}
+
+.top-section-heading span {
+    text-align: left;
+    font-size: 45px;
+    color: rgb(190, 110, 189);
+}
+
+.form-heading {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-container .form-heading span {
+    color: #1b3d63;
+    font-weight: bold;
+}
+
+.phone-numer-container {
+    display: flex;
+}
+
+.phone-numer-container select {
+    margin-right: 20px;
+}
+
+.inputEl-container input {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #1b3d63;
+    color: black;
+}
+
+select {
+    color: grey;
+    margin-top: 10px;
+    border: solid 1px #1b3d63;
+    border-radius: 5px;
+    background: white;
+}
+
+.inputEl {
+    border: solid 1px #1b3d63;
+}
+
+.india-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.education {
+    border: solid 1px #1b3d63;
+    width: 100%;
+    height: 38px;
+}
+
+.qualification {
+    color: rgba(231, 224, 224, 0.644);
+}
+
+.btn-el {
+    background-color: #1b3d63;
+    color: white;
+    font-weight: bold;
+    padding: 5px 40px;
+    margin: 10px 0px;
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: baground-color 0.3s smooth;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiring-partner-heading {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.companies-number {
+    color: #019ee2;
+}
+
+.package-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 4px #a1aebd;
+    background-color: white;
+    margin-top: 12px;
+    min-width: 200px;
+    min-height: 120px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.package-details h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.package-details h1 span {
+    font-size: 15px;
+}
+
+.package {
+    font-weight: bold;
+    font-family: 'Bree Serif';
+}
+
+.Hiring-Comapnaies {
+    margin: 45px 20px;
+    width: 350px;
+}
+
+.hiring-comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    padding: 20px 20px;
+}
+
+.model-form-heading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.jobAssistance-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.jobAssistance-heading span {
+    color: #019ee2;
+}
+
+.course-card {
+    box-shadow: -5px 5px 10px rgb(121, 117, 117);
+    border-radius: 10px;
+    margin: 10px 10px;
+    min-height: 500px;
+    max-width: 380px;
+    min-width: 180px;
+}
+
+.course-card h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-top-section {
+    padding: 18px;
+    border-radius: 2px;
+}
+
+.technologies {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.technologies p {
+    font-weight: bold;
+    font-weight: 20px;
+    margin-left: 15px;
+}
+
+.course-overview {
+    background-color: white;
+    min-height: 212px;
+}
+
+.course-overview img {
+    width: 60px;
+}
+
+.card-1 {
+    background-image: linear-gradient(to right, rgb(184, 197, 199), rgb(120, 156, 209));
+    padding-bottom: 50px;
+}
+
+.card-2 {
+    background-image: linear-gradient(to right, rgb(197, 197, 132), rgb(192, 122, 122));
+}
+
+.card-3 {
+    background-image: linear-gradient(to right, rgb(187, 175, 186), rgb(177, 109, 163));
+}
+
+.card-4 {
+    background-image: linear-gradient(to right, rgb(180, 199, 165), rgb(96, 177, 75));
+}
+
+.elibility-and-duration-card {
+    display: flex;
+    align-items: center;
+    padding: 2px 13px;
+    margin-top: 20px;
+}
+
+.eligible-duration-title {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.duration-card {
+    position: relative;
+    top: -25px;
+}
+
+.eligible-duration-description {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttons-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    border: none;
+    padding: 5px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.know-more-btn {
+    background-color: white;
+}
+
+.btn-1 {
+    background-color: rgb(120, 156, 209);
+}
+
+.btn-2 {
+    background-color: rgb(192, 122, 122);
+}
+
+.btn-3 {
+    background-color: rgb(230, 64, 188);
+}
+
+.btn-4 {
+    background-color: rgb(96, 177, 75);
+}
+
+.testimonial-container {
+    background-color: #1b3d63;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-heading {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.testimonial {
+    flex: 0 0 300px;
+    width: 300px;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 30px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #1b3d63;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.arrow.left-arrow {
+    left: 10px;
+}
+
+.arrow.right-arrow {
+    right: 10px;
+}
+
+.educators-section-heading {
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.educator-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.educator-card {
+    max-width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -3px -3px 4px grey;
+}
+
+.edu-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.company-logo {
+    max-width: 65px;
+    margin: 9px 0px;
+    display: block;
+}
+
+.bottom-nav-bg {
+    background-image: linear-gradient(to left, rgb(24, 24, 73), #1b3d63);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 30px;
+}
+
+.bottom-nav-bg h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bottom-nav-bg p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 14px 0;
+    max-width: 300px;
+}
+
+.bottom-nav-bg hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .top-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .student-image {
+        height: 350px;
+    }
+
+    .form-container {
+        width: 30vw;
+        min-height: 75vh;
+    }
+
+    .bottom-section {
+        flex-direction: row;
+    }
+
+    .package-details {
+        margin-right: 50px;
+        width: 190px;
+    }
+
+    .hiring-comp-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hiring-Comapnaies {
+        width: 1000px;
+    }
+
+    .courses-container {
+        flex-direction: row;
+        margin: 20px 20px;
+        gap: 60px;
+    }
+
+    .bottom-nav-bg {
+        gap: 40px;
+    }
+
+    .bottom-nav-bg {
+        flex-direction: row;
+    }
+}

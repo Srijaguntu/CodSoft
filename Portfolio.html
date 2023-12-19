@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/82db4d405c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <h1 class="logo-name"><span class="name-first-letter">S</span>rija</h1>
+                <!--Added Name-->
+                <ul id="sidemenu">
+
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+
+                <p>Web Developer</p>
+                <h1>Hi ,I am <span>Srija</span></h1>
+                <p id="p1">I am from India.<br>I Design and Develop My Perspectives...<br>
+                    I am passionate Full Stack Software Developer<br>Enthusiastic and dedicated Agriculture Science student
+                    <br>Loving the process as much as the outcome.<br>
+                </p>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://res.cloudinary.com/dyn83pixv/image/upload/v1702193226/IMG_20231210_125650_580_x1mtez.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>
+                            I am Srija from India.<br>Completed my bsc(Hon's) in the stream of Agriculture. <br>
+                            Eager to learn new technologies.<br>
+                            Eager to leverage strong analytical and problem-solving skills to contribute to innovative AI projects <br>
+                            and develop solutions that positively impact the industry.
+                            <br> I take creative, collaborative, strategic approach to defining <br>
+                            and designing solution.<br>Love for design is another level of my art.<br>
+                            Web with me...
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>UI/UX</span><br> designing Web apps interfaces
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br> creating website
+                                </li>
+                                <li>
+                                    <span>Android Development</span><br> Creating mobile apps
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2023</span><br> Design Head at Synapses
+                                </li>
+                                <li>
+                                    <span>web</span><br> Web Development intern at CodSoft
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2017-2021(Bsc)</span><br> Sunrise University
+                                </li>
+                                <li>
+                                    <span>2015-2016(11th-12th)</span><br> Sri Chaitanya Junior College
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">my services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design of your choise </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>meaningful UI/UX and Prototypes</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Developer</h2>
+                        <p>I have knowledge of developing app uasing Android
+                            studio.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="https://st.depositphotos.com/1516574/51407/i/450/depositphotos_514078166-stock-photo-fog-in-red-blue-neon.jpg">
+                        <div class="layer">
+                            <h3>Task Analyzer</h3>
+                            <p>Task analysis is an observation method that divides goals into smaller subtasks.
+                                The task analysis process applies to numerous industries and can improve the efficiency
+                                of goal-setting, employee training and task completion.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D">
+                        <div class="layer">
+                            <h3>Image-To-Text</h3>
+                            <p>The project uses pytesseract module to convert image into
+                                text and regular expression to extract specific fields
+                                from the extracted text</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://img.freepik.com/premium-photo/brick-wall-with-reflection-neon-blue-light_117255-1873.jpg">
+                        <div class="layer">
+                            <h3>Image-Colorization</h3>
+                            <p>Image colorization is the process of taking an input grayscale (black and white)
+                                image and then producing an output colorized image that represents the semantic
+                                colors and tones of the input.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+
+            </div>
+        </div>
+
+
+        <!---contact------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>srijaguntu998@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>6300551229</p>
+                        <div class="social-icons">
+                            <a href=" "><i class="fa-brands fa-facebook"></i></a>
+                            <a href=" "><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/__harleyquinn95/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=" https://www.linkedin.com/in/srija-guntu-a024bb21a/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="file:///C:/Users/Admin/Downloads/NEW%20(2).pdf" download class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="your email" required>
+                            <textarea name="message" rows="6" placeholder="your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                        <div class="last">
+                            <i class="far fa-copyright contact-details">srija_guntu</i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwpLEaPuLqNYU_CouLqdzzY9YUzS4IPWvNEQK4pEaFuZS_izy4xaii-wE8r8AMgVPs/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </div>
+</body>
+
+</html>
